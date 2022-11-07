@@ -9,8 +9,8 @@ const NavBar = () => {
   const {showCart, setShowCart, totalQuantities} = useStateContext();
   return (
     <div className='navbar-container'>
-      <p className='logo'>
-        <Link href="/">Pc Custom Worx</Link>
+      <p className='logo' style={{ fontSize: "34px", color:"black", padding:"4px" }}>
+        <Link href="/" >Pc Custom Worx</Link>
       </p>
 
       <button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
